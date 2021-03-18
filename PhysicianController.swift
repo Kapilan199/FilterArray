@@ -98,7 +98,7 @@ class PhysicianController: UIViewController, GMSMapViewDelegate, CLLocationManag
         
         
         
- let fromLocation:CLLocation = CLLocation(latitude: 24.186965, longitude: 120.593158)
+ let fromLocation:CLLocation = CLLocation(latitude: lat, longitude: long)
         
  var places:[Places] = [
 
