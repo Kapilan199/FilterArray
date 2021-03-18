@@ -148,7 +148,7 @@ coordinate : CLLocationCoordinate2DMake(24.1333434,120.680744))
         }
         
         
-        places.sort(by: { $0.distance! < $1.distance! })
+        places.sortInPlace(by: { $0.distance! < $1.distance! })
          //after sort the array
         for n in 0...(places.count-1) {
             print("\(String(describing: places[n].distance))")
